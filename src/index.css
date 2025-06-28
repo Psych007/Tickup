@@ -1,90 +1,9 @@
-/* Global Styles */
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f6f9;
-  color: #333;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
 }
-
-/* Container Styling */
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Header Styling */
-.header {
-  background-color: #007bff;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-/* Form Styling */
-.form-container {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  font-weight: bold;
-}
-
-.input-field {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-.input-field:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
-.submit-btn {
-  width: 100%;
-  padding: 12px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.submit-btn:hover {
-  background-color: #218838;
-}
-
-/* Footer Styling */
-.footer {
-  background-color: #343a40;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 30px;
-  border-radius: 8px;
-}
-
-.footer p {
-  margin: 0;
-  font-size: 1rem;
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
